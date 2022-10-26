@@ -19,8 +19,8 @@
         <Label Content="Возраст&#xD;&#xA;" Canvas.Left="10" Canvas.Top="94" HorizontalAlignment="Center" VerticalAlignment="Top"/>
         <TextBox Name="TxtName" TextWrapping="Wrap" Text="{Binding ElementName=dg, Path=SelectedItem.Name, Mode=TwoWay}" Canvas.Left="109" Canvas.Top="39" Height="26" Width="110"/>
         <TextBox Name="TxtAge"  TextWrapping="Wrap" Text="{Binding ElementName=dg, Path=SelectedItem.Age, Mode= OneWay}" Canvas.Left="109" Canvas.Top="89" Height="26" Width="110" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <Button Name="BtnAdd" Canvas.Left="109" Canvas.Top="160" Click="BtnAdd_Click">Добавить</Button>
-        <Button Name="BtnRemove" Canvas.Left="109" Canvas.Top="220" Click="BtnRemove_Click" >Удалить</Button>
-        <Button Name="BtnChange" Canvas.Left="109" Canvas.Top="280" Click="BtnChange_Click">Изменить</Button>
+        <Button Name="BtnAdd" Canvas.Left="109" Canvas.Top="160" Click="BtnAdd_Click" HorizontalAlignment="Left" VerticalAlignment="Center" Width="72">Добавить</Button>
+        <Button Name="BtnRemove" Canvas.Left="109" Canvas.Top="220" Click="BtnRemove_Click" HorizontalAlignment="Left" VerticalAlignment="Center" Width="72" >Удалить</Button>
+        <Button Name="BtnChange" Canvas.Left="109" Canvas.Top="280" Click="BtnChange_Click" HorizontalAlignment="Left" VerticalAlignment="Center" Width="72">Изменить</Button>
     </Canvas>
 </Window>
